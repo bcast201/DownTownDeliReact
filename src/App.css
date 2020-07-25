@@ -1,38 +1,195 @@
-.App {
+
+#root {
+  background-color: #c2d148;
+}
+
+body {
+  font-family: "open sans", sans-serif;
+  background-color: #c2d148;
+}
+
+nav {
+  font-family: 'Unkempt', cursive;
+  
+}
+
+h4, h3{
+  font-family: 'Unkempt', cursive;
+}
+
+h2, p {
+  font-family: 'Unkempt', cursive;
+}
+
+
+footer {
+  font-family: 'Unkempt', cursive;
+  position: relative;
+}
+
+.footer-color {
+  background-color: #4B515D;
+}
+
+.modal-special-text {
+  font-family: 'Unkempt', cursive;
+}
+
+.img-grid {
+  width: auto;
+  height: 550px;
+  object-fit: cover;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* .map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  margin: 50px;
+  }
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  } */
+
+/* #brandTitle{
+  font-size: 20px;
+} */
+
+.jumbotron {
+  height: 90vh;
+  /* margin-top:25px; */
+  background: url("./img/bigbellydeli.jpeg") top center;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  z-index:20;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  margin-bottom: 0px;
+  background-color: #c2d148;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.brand{
+  font-size: 3vmax;
+}
+
+.welcome {
+  background-color:rgb(105,105,105, 0.8);
+  margin-top: 15vmin;
+  color:white;
+  height: 50vh;
+  position: absolute;
+}
+
+.welcometext{
+  font-size: 3vmax ;
+  font-family: 'Unkempt', cursive;
+}
+
+#divtext{
+  font-size: 3vmin;
+  margin-top: 9vmin;
+}
+
+
+@media screen and (min-width: 800px) {
+  .brand {
+    font-size: 30px;
+  }
+  .welcometext{
+    font-size: 40px
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.button-group {
+  margin: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+@media screen and (max-width: 400px) {
+  #buttonSpace{
+    margin-top: 2em;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.displayImage {
+  max-height: 100%;
 }
+
+.displayContainer{
+  border-color: green;
+  padding: 10px;
+  border-style: dashed;
+  border-width: 5px;
+  background-color: #deeb74;
+  width:100%;
+  margin-bottom: 2vh;
+}
+
+.tagline{
+  font-size: 5vmin;
+
+}
+
+.taglineConatiner{
+  display: flex;
+}
+
+.displayFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+/* @media screen and (max-width: 400px) {
+  .tagline{
+    padding: 5px;
+  }
+} */
+
+.aboutDannyContainer{
+  border-color:#313335;
+  padding: 20px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: lightgrey;
+}
+
+.aboutDannyBg{
+  background-color: rgb(122, 153, 122);
+  /* margin-top: 9vh; */
+}
+
+
+.menuContainer{
+  margin-bottom: 20px;
+  border-color: green;
+  /* margin-top: 75px; */
+  border-style: dashed;
+  border-width: 5px;
+  background-color: lightgrey;
+  max-width: 600px;
+
+}
+
+
+.item{
+  padding:1vh;
+  font-family: 'Unkempt', cursive;
+}
+
+

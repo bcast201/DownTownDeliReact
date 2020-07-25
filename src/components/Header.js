@@ -38,7 +38,7 @@ class Header extends Component {
                         </li>
                             </Link>
                             <li>
-                                <a href="http://metrodiningdelivery.com/menus/dannys_online_order_form_lincoln_ne.html" target="_blank" className="nav-link">Delievery</a>
+                                <a href="http://metrodiningdelivery.com/menus/dannys_online_order_form_lincoln_ne.html" target="_blank" rel="noopener noreferrer" className="nav-link">Delievery</a>
                             </li>
                             <Link to='/aboutdanny' className='nav-link'>
                                 <li>

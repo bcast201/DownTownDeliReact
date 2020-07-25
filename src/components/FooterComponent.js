@@ -37,7 +37,7 @@ class Footer extends Component {
                     </div>
                     <div className="footer-copyright text-center py-3">
                         <a role="button" className="text-info" href="tel:+14024389410"><i className="fa fa-phone"></i> 402-438-9410</a>
-                        <a href="https://www.google.com/maps/place/O+St+%26+S+10th+St,+Lincoln,+NE+68508/@40.8136265,-96.7091892,17z/data=!3m1!4b1!4m5!3m4!1s0x8796bf02a4351921:0x3f84503a1f5b7389!8m2!3d40.8136265!4d-96.7070005" className="text-info pl-5" target="_blank"> 10th & O St Lincoln, NE 68508</a>
+                        <a href="https://www.google.com/maps/place/O+St+%26+S+10th+St,+Lincoln,+NE+68508/@40.8136265,-96.7091892,17z/data=!3m1!4b1!4m5!3m4!1s0x8796bf02a4351921:0x3f84503a1f5b7389!8m2!3d40.8136265!4d-96.7070005" className="text-info pl-5" target="_blank" rel="noopener noreferrer"> 10th & O St Lincoln, NE 68508</a>
                     </div>
 
                 </footer>
